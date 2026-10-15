@@ -27,7 +27,19 @@ Resource: Preventing Insecure Network Connections - https://developer.apple.com/
 
 
 Networking
+IPv6 has a much bigger address space than IPv4, which uses 32-bit addresses whereas IPv6 uses 128-bit addresses. IPv6 addresses employ hexadecimal groups separated by colons, but IPv4 addresses are typically expressed as four decimal integers. IPv6 helps supply enough addresses and facilitates address autoconfiguration when the number of linked phones, sensors, servers, and other devices increases. Appropriate network planning and security measures are still necessary for deployment. government systems to remain compatible with contemporary networks, IPv6 should be supported.
+
+Resource: RFC 8200: Internet Protocol, Version 6 (IPv6) Specification - https://www.rfc-editor.org/rfc/rfc8200
+
 Cybersecurity
+An attack known as "prompt injection" uses malicious instructions to try to get an AI model to ignore its intended goal or produce dangerous outcomes. While indirect prompt injection is incorporated into external content, such a webpage or document the assistant retrieves, direct prompt injection originates from user input. Using least privilege to limit tool permissions and considering retrieved content as untrusted data are two mitigations. Independent validation is necessary for sensitive actions.
+
+Resource: LLM Prompt Injection Prevention Cheat Sheet - https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html
+
 Data
+Anonymization changes conversation logs such that people are no longer identifiable by reasonably foreseeable techniques. Pseudonymization replaces identifying details with substitutes like codes, although additional information can still expose a person's identity. Under the UK GDPR, effectively anonymized material is exempt from data protection laws, whereas pseudonymized personal data is still protected. Removing names alone may not be sufficient if additional details can identify a citizen. The applicable local law must also be reviewed.
+
+Resource: Introduction to anonymisation - Information Commissioner's Office - https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-sharing/anonymisation/introduction-to-anonymisation/
+
 Misconception in My Track
 Open Question
