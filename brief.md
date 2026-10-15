@@ -7,9 +7,25 @@ Cross-disciplinary cooperation is necessary for the deployment of a government A
 Resource: Apple Developer Documentation: Preventing Insecure Network Connections - https://developer.apple.com/documentation/security/preventing-insecure-network-connections
 Resource: OWASP Gen AI Security Project: LLM01 Prompt Injection - https://genai.owasp.org/llmrisk/llm01-prompt-injection/
 
+
 Software
+Three numbers are used in semantic versioning: MAJOR.MINOR.PATCH. When a modification to the public API is incompatible with the previous version, the MAJOR version needs to be raised. When new features are implemented without compromising backward compatibility, the MINOR version grows. For backward-compatible bug fixes, the PATCH version rises. For instance, a major release can be necessary to remove a public API field, whereas a patch release would be necessary to address a bug without altering the API.
+
+Resource: Semantic Versioning 2.0.0 - https://semver.org/ 
+
+
 AI
+A linguistic model and a system that gathers pertinent data from outside sources are combined in Retrieval-Augmented Generation (RAG). Before producing a response, the government assistant could obtain up-to-date data from official service pages. This facilitates updates without retraining the model and grounds replies on pertinent evidence. RAG does not, however, ensure accuracy; answers may still be inaccurate due to out-of-date materials or irrelevant results.
+
+Resource: What Is Retrieval Augmented Generation (RAG)? A Complete Guide - https://www.datacamp.com/blog/what-is-retrieval-augmented-generation-rag?utm_cid=23950607749&utm_aid=196253697494&utm_campaign=230119_1-ps-other~dsa-tofu~ai_2-b2c_3-mea_4-prc_5-na_6-na_7-le_8-pdsh-go_9-nb-e_10-na_11-na&utm_loc=9069734-&utm_mtd=-c&utm_kw=&utm_source=google&utm_medium=paid_search&utm_content=ps-other~mea-en~dsa~tofu~blog~artificial-intelligence&gad_source=1&gad_campaignid=23950607749&gbraid=0AAAAADQ9WsETIB7QSZlafQC_OZU6Y7O8V&gclid=CjwKCAjw88HWBhA3EiwAo2Zd6GcDZNRLmSTgxsEGwzqNj8ZUTX_zSleEE9Ne6v8RWSCtcTeiOVPNrRoCi7oQAvD_BwE
+
+
 Mobile
+When apps use Apple's standard URL Loading System, iOS App Transport Security (ATS) ensures secure network connections by demanding suitable TLS encryption, valid certificates, and secure cryptographic settings. ATS often stops the request if the government app attempts to use this mechanism to call a regular HTTP endpoint. Instead of weakening security measures, developers should set up the server to use HTTPS, which will assist prevent citizens' data from being intercepted or altered.
+
+Resource: Preventing Insecure Network Connections - https://developer.apple.com/documentation/security/preventing-insecure-network-connections
+
+
 Networking
 Cybersecurity
 Data
