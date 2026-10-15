@@ -42,4 +42,9 @@ Anonymization changes conversation logs such that people are no longer identifia
 Resource: Introduction to anonymisation - Information Commissioner's Office - https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-sharing/anonymisation/introduction-to-anonymisation/
 
 Misconception in My Track
+A frequent fallacy in cybersecurity is that a powerful system prompt can entirely prevent prompt injection. Malicious instructions may occur in user messages, as well as external documents and webpages. A system prompt alone cannot eliminate this risk completely. Developers should additionally limit tool rights, consider retrieved content untrustworthy, and need clearance for sensitive actions. The OWASP document, under the heading "How to Prevent," outlines various mitigation steps and emphasizes that the language model alone does not provide complete protection.
+
+
 Open Question
+How can the government ensure that retrieved service information is current and officially sanctioned, while also testing the assistant's resilience to prompt injection in Arabic and English before making it available to citizens?
+
